@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script src="js/main.js" defer></script>
+	<title>Miro + OpenAI</title>
+</head>
+
+<body>
+	<header>
+		<div class="navbar">
+			<div class="logo">
+				<h2>Miro + OpenAI Image Generator</h2>
+			</div>
+			<div class="nav-links">
+				<ul>
+					<li>
+						<a href="https://developers.miro.com/reference/api-reference" target="_blank">Miro REST API Docs</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</header>
+
+	<div class="promptDiv">
+		<form id="imagePrompt">
+			<h2 id="ImagineAnImage">Add an Image to your Miro Board</h2>
+			<input type="text" id="promptInput"><br>
+			<button class="generateButton" type="submit" id="openaiBtn" class="btn">Generate</button>
+		</form>
+	</div>
+	<div class="image-container">
+		<h2 class="msg"></h2>
+		<img src="" alt="" id="image" />
+	</div>
+  <div class="add-to-miro-button">
+    <button class="generateButton" type="submit" id="miroBtn" class="btn">Add to Miro</button>
+  </div>
+
+	<div class="spinner"></div>
+
+</body>
+
+</html>

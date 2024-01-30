@@ -1,0 +1,27 @@
+{
+  "name": "Miro-OpenAI-Image-Generation",
+  "version": "1.0.0",
+  "description": "Node.js example of using OpenAI to generate an image and add it to Miro Board",
+  "author": "Horea Porutiu <horeaporutiu@gmail.com>",
+  "main": "app.js",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IBM/node-hello-world-minimal.git"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.1",
+    "openai": "^4.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.42.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
